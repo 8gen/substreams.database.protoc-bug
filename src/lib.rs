@@ -1,3 +1,5 @@
+mod pb;
+
 use substreams::errors::Error;
 use substreams::Hex;
 use substreams_database_change::pb::database::table_change::Operation;

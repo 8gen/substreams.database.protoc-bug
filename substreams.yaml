@@ -18,6 +18,6 @@ modules:
     inputs:
       - source: sf.ethereum.type.v2.Block
     output:
-      type: proto:sf.substreams.database.v1.DatabaseChanges
+      type: proto:sf.substreams.sink.database.v1.DatabaseChanges
 
 
