@@ -1,0 +1,8 @@
+/target/
+/localblocks/
+/localdata/
+/localirr/
+.idea/
+/rpc-cache/
+*.spkg
+replay.log

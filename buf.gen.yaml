@@ -1,0 +1,10 @@
+version: v1
+plugins:
+  - name: prost
+    out: src/pb
+    opt:
+      - bytes=.
+      - file_descriptor_set=false
+      - type_attribute=.database.v1.DatabaseChanges=#[derive(::serde::Serialize)]
+      - type_attribute=.database.v1.TableChange=#[derive(::serde::Serialize)]
+      - type_attribute=.database.v1.Field=#[derive(::serde::Serialize)]
